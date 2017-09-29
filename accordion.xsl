@@ -15,7 +15,6 @@ Last Updated: Enter Date Here
 				exclude-result-prefixes="ou xsl xs fn ouc">
 
 	<xsl:template match="/document">
-		<!doctype html>
 		<html>
 			<head>
 				<meta charset="utf-8" />
