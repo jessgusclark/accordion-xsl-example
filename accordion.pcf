@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?pcf-stylesheet path="/jesse/ocn/accordion/accordion.xsl" title="Properties 1.1" extension="html"?>
+<?pcf-stylesheet path="/accordion.xsl" title="Accordion Example" extension="html"?>
 
 <!DOCTYPE document SYSTEM "http://commons.omniupdate.com/dtd/standard.dtd"> 
 
