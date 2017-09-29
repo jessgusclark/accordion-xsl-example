@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?pcf-stylesheet path="/jesse/ocn/accordion/accordion.xsl" title="Properties 1.1" extension="html"?>
+
+<!DOCTYPE document SYSTEM "http://commons.omniupdate.com/dtd/standard.dtd"> 
+
+<document xmlns:ouc="http://omniupdate.com/XSL/Variables">
+	<ouc:info><tcf>section.tcf</tcf><tmpl>properties.tmpl</tmpl></ouc:info>
+	
+	<ouc:properties label="metadata">
+		<title>Accoridion Example</title>
+	</ouc:properties>
+	
+	
+	<ouc:div label="content-1" group="Everyone" button-text="Content Region">
+		<ouc:editor csspath="/_resources/ou/editor/wysiwyg.css" cssmenu="/_resources/ou/editor/styles.txt" wysiwyg-class="left-content"/>
+
+		<table class="ou-snippet ou-accordion">
+			<caption>
+				Accordion
+			</caption>
+			<colgroup>
+				<col class="ou-prompt"/>
+				<col class="ou-prompt"/>
+				<col class="ou-prompt"/>
+				<col class="ou-prompt"/>
+			</colgroup>
+			<tbody>
+				<tr class="ou-heading-level">
+					<td class="ou-prompt">Heading Level</td>
+					<td class="ou-prompt">Enter a value from 3 to 6 (default is 4)</td>
+					<td class="ou-value" colspan="2">4</td>
+				</tr>
+				<tr class="ou-prompt">
+					<td class="ou-prompt" style="width: 20%;">Heading</td>
+					<td class="ou-prompt" style="width: 50%;">Content</td>
+					<td class="ou-prompt" style="width: 15%;">Heading Tooltip/Title (optional)</td>
+					<td class="ou-prompt" style="width: 15%;">Heading ID/Hash (optional, must be unique if set)</td>
+				</tr>
+				<tr class="ou-panel">
+					<td class="ou-title ou-value">Heading 1</td>
+					<td class="ou-content ou-value"><h3>Section 1</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+							ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+							ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+							reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+							sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+							id est laborum. </p></td>
+					<td class="ou-link-title ou-value"></td>
+					<td class="ou-link-id ou-value"></td>
+				</tr>
+				<tr class="ou-panel">
+					<td class="ou-title ou-value">Heading 2</td>
+					<td class="ou-content ou-value"><h3>Section 2</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+							ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+							ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+							reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+							sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+							id est laborum. </p></td>
+					<td class="ou-link-title ou-value"></td>
+					<td class="ou-link-id ou-value"></td>
+				</tr>
+			</tbody>
+		</table>
+	</ouc:div>
+
+
+</document>
+
+
